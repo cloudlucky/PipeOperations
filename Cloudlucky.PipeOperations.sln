@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloudlucky.PipeOperations", "src\Cloudlucky.PipeOperations\Cloudlucky.PipeOperations.csproj", "{CEEBB82A-C1E1-4480-B28D-539B2C8B8855}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloudlucky.PipeOperations.Tests", "tests\Cloudlucky.PipeOperations.Tests\Cloudlucky.PipeOperations.Tests.csproj", "{DE3E3123-6E51-4659-935D-0CEF657C8B2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloudlucky.PipeOperations.SourceGeneration", "src\Cloudlucky.PipeOperations.SourceGeneration\Cloudlucky.PipeOperations.SourceGeneration.csproj", "{34E5332E-D1AB-4A91-9620-37BA90769DD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E6F880C-5C81-49D8-BC28-0CEB7FEA54DB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5B5C7CE8-791B-4543-A90F-EDB80B898DAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{88666B12-0487-4EE3-9809-9C7654A9604E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEEBB82A-C1E1-4480-B28D-539B2C8B8855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEEBB82A-C1E1-4480-B28D-539B2C8B8855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEEBB82A-C1E1-4480-B28D-539B2C8B8855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEEBB82A-C1E1-4480-B28D-539B2C8B8855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3E3123-6E51-4659-935D-0CEF657C8B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3E3123-6E51-4659-935D-0CEF657C8B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3E3123-6E51-4659-935D-0CEF657C8B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3E3123-6E51-4659-935D-0CEF657C8B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34E5332E-D1AB-4A91-9620-37BA90769DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E5332E-D1AB-4A91-9620-37BA90769DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E5332E-D1AB-4A91-9620-37BA90769DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E5332E-D1AB-4A91-9620-37BA90769DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEEBB82A-C1E1-4480-B28D-539B2C8B8855} = {5B5C7CE8-791B-4543-A90F-EDB80B898DAC}
+		{DE3E3123-6E51-4659-935D-0CEF657C8B2E} = {88666B12-0487-4EE3-9809-9C7654A9604E}
+		{34E5332E-D1AB-4A91-9620-37BA90769DD8} = {5B5C7CE8-791B-4543-A90F-EDB80B898DAC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CF68858-4FB1-4845-A0BD-002B0F7D42BE}
+	EndGlobalSection
+EndGlobal
