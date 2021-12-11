@@ -14,8 +14,8 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<PackageReleaseNotes>OutOfRange refactored to generic; custom expression-based guards added; NoEnumeration attribute applied</PackageReleaseNotes>
-		<Version>1.0.0</Version>
+		<PackageReleaseNotes>First release</PackageReleaseNotes>
+		<Version>1.0.1</Version>
 
 		<PackageId>Cloudlucky.PipeOperations</PackageId>
 		<Title>Cloudlucky.PipeOperations</Title>
