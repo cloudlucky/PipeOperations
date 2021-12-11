@@ -13,6 +13,24 @@
 		<PipeExtensionsMaxNumberOfParameters>14</PipeExtensionsMaxNumberOfParameters>
 	</PropertyGroup>
 
+	<PropertyGroup>
+		<PackageReleaseNotes>OutOfRange refactored to generic; custom expression-based guards added; NoEnumeration attribute applied</PackageReleaseNotes>
+		<Version>1.0.0</Version>
+
+		<PackageId>Cloudlucky.PipeOperations</PackageId>
+		<Title>Cloudlucky.PipeOperations</Title>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Authors>Kevin Martin</Authors>
+		<PackageProjectUrl>https://github.com/cloudlucky/PipeOperations</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/cloudlucky/PipeOperations</RepositoryUrl>
+		<Description>A simple package to pipe operations.</Description>
+		<Summary>A simple package to pipe operations.</Summary>
+		<PackageTags>pipe pipeline operation</PackageTags>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<CompilerVisibleProperty Include="PipeExtensionsMaxNumberOfParameters" />
 	</ItemGroup>
